@@ -200,7 +200,7 @@ CREATE TABLE `system_config` (
 -- Records of system_config
 -- ----------------------------
 BEGIN;
-INSERT INTO `system_config` VALUES (1, 'flink_home', '/data/projects/flink/', 'SYS', 0, '2020-11-12 10:42:02', '2021-09-24 22:11:01', 'sys', 'sys');
+INSERT INTO `system_config` VALUES (1, 'flink_home', '/data/projects/flink-1.14.6/', 'SYS', 0, '2020-11-12 10:42:02', '2021-09-24 22:11:01', 'sys', 'sys');
 INSERT INTO `system_config` VALUES (2, 'flink_rest_http_address', 'http://127.0.0.1:8081/', 'SYS', 0, '2020-11-04 11:23:49', '2020-12-16 20:32:33', 'sys', 'sys');
 INSERT INTO `system_config` VALUES (3, 'flink_streaming_platform_web_home', '/data/projects/flink-streaming-platform-web/', 'SYS', 0, '2020-10-16 16:08:58', '2021-09-24 22:12:42', 'sys', 'sys');
 COMMIT;

@@ -68,4 +68,4 @@ http://127.0.0.1:9084  账号/密码 ： admin / 123456
 
 #### 三、原始镜像制作文件
 
-[Dockerfile](../docker/Dockerfile)
+[Dockerfile](../docker/build/Dockerfile)
