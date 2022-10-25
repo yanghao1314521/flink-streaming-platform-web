@@ -9,9 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.streaming.platform.web</groupId>
     <artifactId>flink-streaming-web</artifactId>
-    <version>1.4.0.RELEASE</version>
+    <version>${flink_streaming_version}</version>
 
 	<properties>
 		<nacos.config.version>0.2.7</nacos.config.version>
