@@ -37,6 +37,13 @@
             </includes>
         </fileSet>
         <fileSet>
+            <directory>../docker</directory>
+            <outputDirectory>logs</outputDirectory>
+            <includes>
+                <include>info.log</include>
+            </includes>
+        </fileSet>
+        <fileSet>
             <directory>target</directory>
             <outputDirectory>logs</outputDirectory>
             <excludes>
