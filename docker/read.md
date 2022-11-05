@@ -1,3 +1,14 @@
+docker build -t registry.cn-hangzhou.aliyuncs.com/flink-streaming-platform-web/flink-web:flink-1.13.2-20220327 ./
+
+build -t myhost:5001/flink-web:flink-1.14.6-20221417 ./
+
+docker-compose build
+
+docker-compose up -d
+
+docker-compose ps
+docker-compose down
+
 docker build -t  registry.cn-hangzhou.aliyuncs.com/flink-streaming-platform-web/flink-web:flink-1.13.2-20220327 ./
 
 
